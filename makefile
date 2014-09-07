@@ -6,8 +6,8 @@ clean:
 	- find . -name "*~" | xargs rm -f
 
 install:
-	ocamlfind install cookie META _build/src/cookie.cmo _build/src/cookie.cmi
+	ocamlfind install cookie-js META _build/src/cookie.cmo _build/src/cookie.cmi
 
 uninstall:
-	ocamlfind remove cookie
+	ocamlfind remove cookie-js
 

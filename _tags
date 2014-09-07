@@ -1,5 +1,4 @@
-<src/cookie.mli>: syntax(camlp4o), package(js_of_ocaml), package(js_of_ocaml.syntax)
-<src/cookie.ml>: syntax(camlp4o), package(js_of_ocaml), package(js_of_ocaml.syntax)
+<src/cookie.ml{,i}>: syntax(camlp4o), package(js_of_ocaml), package(js_of_ocaml.syntax)
 
 <src>: include
 
