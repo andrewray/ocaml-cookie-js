@@ -1,0 +1,4 @@
+version = "0.1.0"
+description = "Simple js_of_ocaml cookie helpers"
+requires = "js_of_ocaml"
+archive(byte) = "cookie.cmo"
